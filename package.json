@@ -1,0 +1,13 @@
+{
+  "name": "awp-lab",
+  "version": "1.0.0",
+  "private": true,
+  "description": "AWP lab work, one folder per week",
+  "workspaces": [
+    "week-*"
+  ],
+  "scripts": {
+    "week3": "npm start -w week-3",
+    "week4": "npm run dev --prefix week-4/be"
+  }
+}
